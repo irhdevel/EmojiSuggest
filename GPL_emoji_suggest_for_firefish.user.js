@@ -7,9 +7,9 @@
 // @match        https://social.sda1.net/*
 // @grant        none
 // @run-at       document-idle
-// @updateURL    https://gist.githubusercontent.com/irhdevel/82e0ef6907ba7be26b4eec5edf67470d/raw/emoji_suggest_GPL.user.js
-// @downloadURL  https://gist.githubusercontent.com/irhdevel/82e0ef6907ba7be26b4eec5edf67470d/raw/emoji_suggest_GPL.user.js
-// @supportURL   https://gist.github.com/irhdevel/82e0ef6907ba7be26b4eec5edf67470d
+// @updateURL    https://github.com/irhdevel/EmojiSuggest/raw/main/GPL_emoji_suggest_for_firefish.user.js
+// @downloadURL  https://github.com/irhdevel/EmojiSuggest/raw/main/GPL_emoji_suggest_for_firefish.user.js
+// @supportURL   https://github.com/irhdevel/EmojiSuggest
 // ==/UserScript==
 
 (function() {
