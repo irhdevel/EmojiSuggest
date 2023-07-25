@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name         EmojiSuggest - Misskey
 // @namespace    irihi_design
-// @version      0.2.2
+// @version      0.2.4
 // @description  ※割とやばい処理の書き方です※ - Misskeyで自分の居るインスタンスにない絵文字をクリックした際、検索欄に絵文字名を入力し類似の絵文字を検索します。ご自分のインスタンスをmatchに設定するなどしてからご利用ください。
 // @author       Irihi_design
 // @match        https://misskey.io/*
 // @grant        none
 // @run-at       document-idle
-// @updateURL    https://gist.githubusercontent.com/irhdevel/82e0ef6907ba7be26b4eec5edf67470d/raw/emoji_suggest_GPL.user.js
-// @downloadURL  https://gist.githubusercontent.com/irhdevel/82e0ef6907ba7be26b4eec5edf67470d/raw/emoji_suggest_GPL.user.js
-// @supportURL   https://gist.github.com/irhdevel/82e0ef6907ba7be26b4eec5edf67470d
+// @updateURL    https://github.com/irhdevel/EmojiSuggest/raw/main/GPL_emoji_suggest_for_misskey.user.js
+// @downloadURL  https://github.com/irhdevel/EmojiSuggest/raw/main/GPL_emoji_suggest_for_misskey.user.js
+// @supportURL   https://github.com/irhdevel/EmojiSuggest
 // ==/UserScript==
 
 (function() {
