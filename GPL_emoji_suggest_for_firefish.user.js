@@ -13,7 +13,7 @@
 // ==/UserScript==
 
 (function() {
-    let agree = false;
+    let agree = true;
     // 表示されてるサイトでどれでも良いけど何かしらのDOMが変更されたとき毎回毎回Check関数を実行（なのですごい実行することになる、やばい実装だと思う。）
     // ただSPAだし、どのDOMを監視すべきなのか、どのDOMがいつ作成されるかわかんない問題とかあるから、どうすればいいかわかんないしこうしておく
     if(agree){(new MutationObserver(check)).observe(document, {childList: true, subtree: true})}else{alert("このダイアログはEmojiSuggestにより表示されています。\n現在EmojiSuggestは無効状態です\n無保証で提供されていること、危険性を理解した上で、Readmeに書いてある方法を読み有効化してください")};
@@ -61,7 +61,7 @@
         return id.split('@')[0].slice( 1 )
     }
     function inputEmojiId(name){
-        let searchInput = document.querySelectorAll("._popup_1ixi5_119 > ._content_1ixi5_5 > .omfetrab > input.search[data-prevent-emoji-insert]")
+        let searchInput = document.querySelectorAll("._popup_1ixi5_119 > ._content_1ixi5_5 > .omfetrab > input.search[data-prevent-emoji-insert],  ._drawer_1ixi5_125 > ._content_1ixi5_5 > .omfetrab > input.search[data-prevent-emoji-insert]")
         // 一応保険でホントに絵文字セレクタなのか確認するために条件分岐しとく(これで他の場所入力されてたらやばいしね)
         if (searchInput.length == 1 && searchInput.item(0).nextElementSibling.classList.contains("emojis")) {
             searchInput.item(0).value = emojiIdAdjust(name)
