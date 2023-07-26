@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EmojiSuggest - Firefish
 // @namespace    irihi_design
-// @version      0.2.6
+// @version      0.2.8
 // @description  ※割とやばい処理の書き方です※ - Misskeyで自分の居るインスタンスにない絵文字をクリックした際、検索欄に絵文字名を入力し類似の絵文字を検索します。ご自分のインスタンスをmatchに設定するなどしてからご利用ください。
 // @author       Irihi_design
 // @match        https://social.sda1.net/*
@@ -13,7 +13,7 @@
 // ==/UserScript==
 
 (function() {
-    let agree = true;
+    let agree = false;
     // 表示されてるサイトでどれでも良いけど何かしらのDOMが変更されたとき毎回毎回Check関数を実行（なのですごい実行することになる、やばい実装だと思う。）
     // ただSPAだし、どのDOMを監視すべきなのか、どのDOMがいつ作成されるかわかんない問題とかあるから、どうすればいいかわかんないしこうしておく
     if(agree){(new MutationObserver(check)).observe(document, {childList: true, subtree: true})}else{alert("このダイアログはEmojiSuggestにより表示されています。\n現在EmojiSuggestは無効状態です\n無保証で提供されていること、危険性を理解した上で、Readmeに書いてある方法を読み有効化してください")};
