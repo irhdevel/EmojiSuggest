@@ -42,12 +42,15 @@ Tempermonkeyのみの対応です。\
 インストールは、user.jsファイルをGithub上で開き、Tempermonkeyをインストールしたブラウザで、`Raw`ボタンをクリックしてインストールしてください  
 もしくは、こちらから。\
 **[🐠 Firefish用](https://github.com/irhdevel/EmojiSuggest/raw/main/GPL_emoji_suggest_for_firefish.user.js)** | 
-**[🌏 Misskey用](https://github.com/irhdevel/EmojiSuggest/raw/main/GPL_emoji_suggest_for_misskey.user.js)**
+**[🌏 Misskey用](https://github.com/irhdevel/EmojiSuggest/raw/main/GPL_emoji_suggest_for_misskey.user.js)** |
+**[✨ Nexkey用](https://github.com/irhdevel/EmojiSuggest/raw/main/GPL_emoji_suggest_for_misskey.user.js)**
 ### ソースコード
 Firefish用（このリンクを開いてビューワ上のRawボタンよりインストールすることも可能）\
 [GPL_emoji_suggest_for_misskey.user.js](https://github.com/irhdevel/EmojiSuggest/blob/main/GPL_emoji_suggest_for_misskey.user.js)\
-ソースコードMisskey用（このリンクを開いてビューワ上のRawボタンよりインストールすることも可能）\
-[GPL_emoji_suggest_for_firefish.user.js](https://github.com/irhdevel/EmojiSuggest/blob/main/GPL_emoji_suggest_for_firefish.user.js)
+Misskey用（このリンクを開いてビューワ上のRawボタンよりインストールすることも可能）\
+[GPL_emoji_suggest_for_firefish.user.js](https://github.com/irhdevel/EmojiSuggest/blob/main/GPL_emoji_suggest_for_firefish.user.js)\
+Nexkey用（このリンクを開いてビューワ上のRawボタンよりインストールすることも可能）\
+[GPL_emoji_suggest_for_nexkey.user.js](https://github.com/irhdevel/EmojiSuggest/blob/main/GPL_emoji_suggest_for_nexkey.user.js)
 ## 📜 Changelog
 変更履歴です。
  - 0.1 - 公開
@@ -60,3 +63,4 @@ Firefish用（このリンクを開いてビューワ上のRawボタンよりイ
 今後はこのリポジトリのものがアップデートされます。Misskey専用のバージョンです。
  - 0.2.5 - Firefish版のアップデートURLを更新しました。Firefish専用のバージョンです。
  - 0.2.6 - バージョンを間違えて公開してしまったため、アップデートさせるためにバージョン番号のみ更新しました。
+ - 0.2.9 - Nexkey版を公開
